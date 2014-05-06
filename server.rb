@@ -5,7 +5,8 @@ URI = 'druby://:19527'
 
 #class of windows 
 class WinTool
-  # include DRb::DRbUndumped
+  include DRb::DRbUndumped
+  
   def ping
     return true
   end
