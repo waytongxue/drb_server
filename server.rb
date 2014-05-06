@@ -10,7 +10,7 @@ class WinTool
     return true
   end
 
-  def exec_cmd(cmd)
+  def cmd(cmd)
     `#{cmd}`
   end
 
